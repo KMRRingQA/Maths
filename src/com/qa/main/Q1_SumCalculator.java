@@ -2,8 +2,8 @@ package com.qa.main;
 
 public class Q1_SumCalculator {
 
-	int add(int Number1, int Number2) {
-		return Number1 + Number2;
+	int add(int number1, int number2) {
+		return number1 + number2;
 	}
 
 }

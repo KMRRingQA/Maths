@@ -2,17 +2,20 @@ package com.qa.main;
 
 public class Q6_Calculator2 {
 
-	int add(int Number1, int Number2) {
-		return Number1 + Number2;
+	int add(int number1, int number2) {
+		return number1 + number2;
 	}
-	int subtract(int Number1, int Number2) {
-		return Number1 - Number2;
+
+	double divide(double number1, double number2) {
+		return number1 / number2;
 	}
-	int multiply(int Number1, int Number2) {
-		return Number1 * Number2;
+
+	int multiply(int number1, int number2) {
+		return number1 * number2;
 	}
-	double divide(double Number1, double Number2) {
-		return Number1 / Number2;
+
+	int subtract(int number1, int number2) {
+		return number1 - number2;
 	}
 
 }
